@@ -1,0 +1,17 @@
+<ion-header>
+	<ion-navbar>
+		 <button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title>News</ion-title>
+	</ion-navbar>
+</ion-header>
+
+<ion-content>
+	<ion-list>
+		<ion-item text-wrap *ngFor="let post of posts" (click)="itemTapped(post)">
+			<h2>{{post.subject}}</h2>
+			<p>{{post.message | truncate : 140}}</p>
+		</ion-item>
+	</ion-list>
+</ion-content>
