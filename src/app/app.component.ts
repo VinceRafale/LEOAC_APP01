@@ -26,7 +26,7 @@ import { PhotoViewerPage } from '../pages/photo-viewer/photo-viewer.page';
 import { LocalNotificationsPage } from '../pages/local-notifications/local-notifications.page';
 import { DeviceMotionPage } from '../pages/device-motion/device-motion.page';
 import { CalendarPage } from '../pages/calendar/calendar.page';
-import { NativeStorageListPage } from '../pages/native-storage/list/native-storage.list.page';
+import { lCalendarListPage } from '../pages/leoCalendar/list/lcalendar.list.page';
 import { ClipboardPage } from '../pages/clipboard/clipboard.page';
 import { ContactsPage } from '../pages/contacts/contacts.page';
 import { DevicePage } from '../pages/device/device.page';
@@ -102,7 +102,7 @@ export class MyApp {
 			{ title: 'Google analytics', component: GoogleAnalyticsPage, icon: 'logo-google' },
 			{ title: 'Launch navigator', component: LaunchNavigatorPage, icon: 'pin' },
 			{ title: 'Local notifications', component: LocalNotificationsPage, icon: 'notifications' },
-			{ title: 'Native storage', component: NativeStorageListPage, icon: 'cloud' },
+			{ title: 'LEONE ACADEMY Calendar', component: lCalendarListPage, icon: 'calendar' },
 			{ title: 'Network', component: NetworkPage, icon: 'wifi' },
 			{ title: 'Photo viewer', component: PhotoViewerPage, icon: 'images' },
 			// { title: 'Position', component: PositionPage, icon: 'compass' },

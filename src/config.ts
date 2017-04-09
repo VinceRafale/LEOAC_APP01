@@ -18,7 +18,8 @@ export class Config {
 		itemsPerPage: 20
 	};
 	public newsUrl = 'https://rc.spomix.ch/api/v1/studios/872c8c65-7d15-40f2-9265-a8a9dcf5c1be/newsfeeds' //'http://skounis.s3.amazonaws.com/mobile-apps/barebone-glossy/news.json';
-	public productsUrl = 'http://skounis.s3.amazonaws.com/mobile-apps/barebone-glossy/products.json';
+	public calendarUrl = 'https://rc.spomix.ch/api/v1/studios/872c8c65-7d15-40f2-9265-a8a9dcf5c1be/clazztemplates?p=0&o=10&s=1&as=fullcalendar&f=%7B%7D&start=2017-04-09&end=2017-04-16&activeOnly=true'
+  public productsUrl = 'http://skounis.s3.amazonaws.com/mobile-apps/barebone-glossy/products.json';
 	public facebook = {
 		apiUrl: 'https://graph.facebook.com/v2.3/',
 		appId: '927897987270774',

@@ -1,0 +1,18 @@
+<ion-header>
+	<ion-navbar>
+		 <button ion-button menuToggle>
+			<ion-icon name="menu"></ion-icon>
+		</button>
+		<ion-title>Calendar</ion-title>
+	</ion-navbar>
+</ion-header>
+
+<ion-content>
+	<ion-list>
+		<ion-item text-wrap *ngFor="let post of posts" (click)="itemTapped(post)">
+			<h2>{{post.title}}</h2>
+			<p>{{post.start | truncate : 140}}</p>
+      <p>{{post.end | truncate : 140}}</p>
+		</ion-item>
+	</ion-list>
+</ion-content>

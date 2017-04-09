@@ -15,7 +15,7 @@ import { DeviceModule } from '../pages/device/device.module';
 import { DeviceMotionModule } from '../pages/device-motion/device-motion.module';
 import { HomeModule } from '../pages/home/home.module';
 import { LocalNotificationsModule } from '../pages/local-notifications/local-notifications.module';
-import { NativeStorageModule } from '../pages/native-storage/native-storage.module';
+import { lCalendarModule } from '../pages/leoCalendar/lcalendar.module';
 import { LocalStorageModule } from '../pages/local-storage/local-storage.module';
 import { NetworkModule } from '../pages/network/network.module';
 import { OAuthModule } from '../pages/oauth/oauth.module';
@@ -87,7 +87,7 @@ import { GoogleAnalyticsModule } from '../pages/google-analytics/google-analytic
 		DeviceMotionModule,
 		HomeModule,
 		LocalNotificationsModule,
-		NativeStorageModule,
+    lCalendarModule,
 		LocalStorageModule,
 		NetworkModule,
 		OAuthModule,
