@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.appseed.bareboneionic2pro" version="1.13.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>LEOAC APP01</name>
+    <name>LEOAC_APP01</name>
     <description>Using Barebone Ionic 2. The first Gap for an LEONE ACADEMY Studio App.</description>
     <author email="waldner.st@gmail.com" href="https://github.com/wast100">Stefan Waldner</author>
     <content src="index.html" />

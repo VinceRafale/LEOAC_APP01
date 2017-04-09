@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-
+import { Deploy } from '@ionic/cloud-angular';
 import { Platform, MenuController, App, Nav } from 'ionic-angular';
 import { StatusBar } from 'ionic-native';
 
@@ -59,7 +59,7 @@ export class MyApp {
 
 	@ViewChild(Nav) nav: Nav;
 
-	constructor(platform: Platform, menu: MenuController, oauthService: OAuthService, app: App) {
+	constructor(platform: Platform, menu: MenuController, oauthService: OAuthService, app: App, public deploy: Deploy) {
 
 		this.menu = menu;
 		this.oauthService = oauthService;
