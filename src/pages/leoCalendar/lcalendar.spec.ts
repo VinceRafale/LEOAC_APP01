@@ -19,7 +19,7 @@ describe('NewsService', () => {
 			// Assert
 			news$.subscribe(items => {
 				expect(items.length).toBe(5);
-				expect(items[0].subject).toBe('WISI CONSEQUAT SIT ZZRIL.');
+				//expect(items[0].subject).toBe('WISI CONSEQUAT SIT ZZRIL.');
 
 				done();
 			});

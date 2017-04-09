@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestModuleMetadata, TestBed } from '@angular/core/testing';
 import { TestUtils } from '../../../test';
-import { NewsListPage } from './lcalendar.list.page';
+import { lCalendarListPage } from './lcalendar.list.page';
 import { lCalendarService } from '../lcalendar.service';
 import { BehaviorSubject } from 'rxjs';
 import { NavController } from 'ionic-angular';
@@ -8,7 +8,7 @@ import { NavMock } from '../../../mocks';
 import { NewsItemPage } from '../item/lcalendar.item.page';
 
 describe('NewsList page', () => {
-	let fixture: ComponentFixture<NewsListPage> = null;
+	let fixture: ComponentFixture<lCalendarListPage> = null;
 	let instance: any = null;
 	let subject = new BehaviorSubject([]);
 
@@ -18,7 +18,7 @@ describe('NewsList page', () => {
 		]
 	};
 
-	beforeEach(async(() => TestUtils.beforeEachCompiler([NewsListPage], moduleMetadata).then(compiled => {
+	beforeEach(async(() => TestUtils.beforeEachCompiler([lCalendarListPage], moduleMetadata).then(compiled => {
 		fixture = compiled.fixture;
 		instance = compiled.instance;
 	})));
