@@ -36,7 +36,6 @@ import { ComponentsListPage } from '../pages/components/list/components.list.pag
 import { LaunchNavigatorPage } from '../pages/launch-navigator/launch-navigator.page';
 import { RSSFeedsPage } from '../pages/rss-feeds/list/rss-feeds.page';
 // import { PositionPage } from '../pages/position/position.page';
-import { GalleriesPage } from '../pages/galleries/list/galleries.page';
 // import { GoogleMapsPage } from '../pages/google-maps/google-maps.page';
 // import { FabToolbarPage } from '../pages/fab-toolbar/fab-toolbar.page';
 import { ChartsListPage } from '../pages/charts-page/list/charts.list.page';
@@ -81,7 +80,6 @@ export class MyApp {
 		this.genericPages = [
 			{ title: 'Badged tabs', component: BadgedTabsPage, icon: 'pricetag' },
 			// { title: 'DateTime', component: DateTimePage, icon: 'time' },
-			{ title: 'Galleries', component: GalleriesPage, icon: 'images' },
 			// { title: 'Google maps', component: GoogleMapsPage, icon: 'map' },
 			{ title: 'Local storage', component: LocalStorageListPage, icon: 'cloud' },
 			{ title: 'News', component: NewsListPage, icon: 'paper' },

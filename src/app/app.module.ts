@@ -32,7 +32,6 @@ import { VibrateModule } from '../pages/vibrate/vibrate.module';
 import { VimeoModule } from '../pages/vimeo/vimeo.module';
 import { WordpressModule } from '../pages/wordpress/wordpress.module';
 import { RssFeedsModule } from '../pages/rss-feeds/rss-feeds.module';
-import { GalleriesModule } from '../pages/galleries/galleries.module';
 import { Base64Service } from '../services/base64.service';
 // import { GoogleMapsModule } from '../pages/google-maps/google-maps.module';
 import { AgmCoreModule } from 'angular2-google-maps/core';
@@ -106,7 +105,6 @@ import { GoogleAnalyticsModule } from '../pages/google-analytics/google-analytic
 		VimeoModule,
 		WordpressModule,
 		RssFeedsModule,
-		GalleriesModule,
 		// GoogleMapsModule,
 		GooglePlaceAutocompleteModule,
 		LaunchNavigatorModule,

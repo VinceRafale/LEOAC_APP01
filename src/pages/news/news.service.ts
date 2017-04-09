@@ -18,6 +18,6 @@ export class NewsService {
     let header = new Headers({ 'Authorization': 'Bearer NWVjNTllYTgtZWE0Yy00YTYzLWIzM2ItN2M1NWYzMzFhNWVk' });
     let options = new RequestOptions({ headers: header });
 		return this.http.get(this.config.newsUrl, options)
-    .map((x: any) => <News[]>x.json());
+    .map(x => <News[]>x.json());
 	}
 }
