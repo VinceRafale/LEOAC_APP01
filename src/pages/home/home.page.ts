@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { Nav } from 'ionic-angular';
 
-import { WordpressListPage } from '../wordpress/list/wordpress.list.page';
-import { SlideBoxPage } from '../slide-box/slide-box.page';
+import { lCalendarListPage } from '../leoCalendar/list/lcalendar.list.page';
+import { NewsListPage } from '../news/list/news.list.page';
 // import { GoogleMapsPage } from '../google-maps/google-maps.page';
 import { Tile } from './models/tile.model';
 import { EmailService } from '../../services/email.service';
@@ -60,15 +60,15 @@ export class HomePage {
 
 	private initTiles(): void {
 		this.tiles = [[{
-			title: 'Wordpress',
-			path: 'wordpress-articles',
-			icon: 'logo-wordpress',
-			component: WordpressListPage
+			title: 'Calendar',
+			path: 'leoCalendar',
+			icon: 'calendar',
+			component: lCalendarListPage
 		}, {
-			title: 'Slides',
-			path: 'slides',
-			icon: 'swap',
-			component: SlideBoxPage
+			title: 'News',
+			path: 'news',
+			icon: 'paper',
+			component: NewsListPage
 		}]];
 	}
 }

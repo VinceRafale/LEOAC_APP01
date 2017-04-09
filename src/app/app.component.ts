@@ -5,12 +5,7 @@ import { StatusBar } from 'ionic-native';
 
 import { OAuthService } from '../pages/oauth/oauth.service';
 import { HomePage } from '../pages/home/home.page';
-import { WordpressListPage } from '../pages/wordpress/list/wordpress.list.page';
-import { SlideBoxPage } from '../pages/slide-box/slide-box.page';
-import { VimeoListPage } from '../pages/vimeo/list/vimeo.list.page';
 import { NewsListPage } from '../pages/news/list/news.list.page';
-import { ProductsListPage } from '../pages/products/list/products.list.page';
-import { LocalStorageListPage } from '../pages/local-storage/list/local-storage.list.page';
 import { OAuthProvidersListPage } from '../pages/oauth/list/oauth-providers.list.page';
 import { OAuthProfilePage } from '../pages/oauth/profile/oauth-profile.page';
 // import { DateTimePage } from '../pages/date-time/date-time.page';
@@ -34,7 +29,6 @@ import { ShakePage } from '../pages/shake/shake.page';
 import { PushPage } from '../pages/push/push.page';
 import { ComponentsListPage } from '../pages/components/list/components.list.page';
 import { LaunchNavigatorPage } from '../pages/launch-navigator/launch-navigator.page';
-import { RSSFeedsPage } from '../pages/rss-feeds/list/rss-feeds.page';
 // import { PositionPage } from '../pages/position/position.page';
 // import { GoogleMapsPage } from '../pages/google-maps/google-maps.page';
 // import { FabToolbarPage } from '../pages/fab-toolbar/fab-toolbar.page';
@@ -42,7 +36,6 @@ import { ChartsListPage } from '../pages/charts-page/list/charts.list.page';
 import { I18nPage } from '../pages/i18n-capabilities/i18n.page';
 // import { LayoutsListPage } from '../pages/layouts/list/layouts.list.page';
 import { GooglePlaceAutocompletePage } from '../pages/google-place-autocomplete/google-place-autocomplete.page';
-import { BadgedTabsPage } from '../pages/badged-tabs/badged-tabs.page';
 import { GoogleAnalyticsPage } from '../pages/google-analytics/google-analytics.page';
 
 @Component({
@@ -78,19 +71,13 @@ export class MyApp {
 		this.homePage = { title: 'Home', component: HomePage, icon: 'home' };
 
 		this.genericPages = [
-			{ title: 'Badged tabs', component: BadgedTabsPage, icon: 'pricetag' },
+      { title: 'News', component: NewsListPage, icon: 'paper' },
+		  { title: 'Calendar', component: lCalendarListPage, icon: 'calendar' },
 			// { title: 'DateTime', component: DateTimePage, icon: 'time' },
 			// { title: 'Google maps', component: GoogleMapsPage, icon: 'map' },
-			{ title: 'Local storage', component: LocalStorageListPage, icon: 'cloud' },
-			{ title: 'News', component: NewsListPage, icon: 'paper' },
-			{ title: 'OAuth', component: OAuthProvidersListPage, icon: 'log-in' },
-			{ title: 'Products', component: ProductsListPage, icon: 'archive' },
-			{ title: 'RSS Feeds', component: RSSFeedsPage, icon: 'logo-rss' },
-			{ title: 'Slides', component: SlideBoxPage, icon: 'swap' },
-			{ title: 'Vimeo', component: VimeoListPage, icon: 'logo-vimeo' },
-			{ title: 'Wordpress', component: WordpressListPage, icon: 'logo-wordpress' },
-		];
 
+		];
+/*
 		this.nativePages = [
 			{ title: 'Action sheet', component: ActionsheetPage, icon: 'list-box' },
 			{ title: 'Calendar', component: CalendarPage, icon: 'calendar' },
@@ -102,7 +89,6 @@ export class MyApp {
 			{ title: 'Google analytics', component: GoogleAnalyticsPage, icon: 'logo-google' },
 			{ title: 'Launch navigator', component: LaunchNavigatorPage, icon: 'pin' },
 			{ title: 'Local notifications', component: LocalNotificationsPage, icon: 'notifications' },
-			{ title: 'LEONE ACADEMY Calendar', component: lCalendarListPage, icon: 'calendar' },
 			{ title: 'Network', component: NetworkPage, icon: 'wifi' },
 			{ title: 'Photo viewer', component: PhotoViewerPage, icon: 'images' },
 			// { title: 'Position', component: PositionPage, icon: 'compass' },
@@ -126,7 +112,7 @@ export class MyApp {
 			{ title: 'Components', component: ComponentsListPage, icon: 'grid' },
 			// { title: 'Layouts', component: LayoutsListPage, icon: 'flower' }
 		];
-
+*/
 		this.rootPage = HomePage;
 	}
 

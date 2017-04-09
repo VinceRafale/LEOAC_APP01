@@ -16,22 +16,16 @@ import { DeviceMotionModule } from '../pages/device-motion/device-motion.module'
 import { HomeModule } from '../pages/home/home.module';
 import { LocalNotificationsModule } from '../pages/local-notifications/local-notifications.module';
 import { lCalendarModule } from '../pages/leoCalendar/lcalendar.module';
-import { LocalStorageModule } from '../pages/local-storage/local-storage.module';
 import { NetworkModule } from '../pages/network/network.module';
 import { OAuthModule } from '../pages/oauth/oauth.module';
 import { PhotoViewerModule } from '../pages/photo-viewer/photo-viewer.module';
 // import { PositionModule } from '../pages/position/position.module';
-import { ProductsModule } from '../pages/products/products.module';
 import { ScreenOrientationModule } from '../pages/screen-orientation/screen-orientation.module';
 import { ShakeModule } from '../pages/shake/shake.module';
-import { SlideBoxModule } from '../pages/slide-box/slide-box.module';
 import { SocialSharingModule } from '../pages/social-sharing/social-sharing.module';
 import { SpinnerDialogModule } from '../pages/spinner-dialog/spinner-dialog.module';
 import { ToastsModule } from '../pages/toasts/toasts.module';
 import { VibrateModule } from '../pages/vibrate/vibrate.module';
-import { VimeoModule } from '../pages/vimeo/vimeo.module';
-import { WordpressModule } from '../pages/wordpress/wordpress.module';
-import { RssFeedsModule } from '../pages/rss-feeds/rss-feeds.module';
 import { Base64Service } from '../services/base64.service';
 // import { GoogleMapsModule } from '../pages/google-maps/google-maps.module';
 import { AgmCoreModule } from 'angular2-google-maps/core';
@@ -53,7 +47,6 @@ export function createTranslateLoader(http: Http) {
 }
 
 import { GooglePlaceAutocompleteModule } from '../pages/google-place-autocomplete/google-place-autocomplete.module';
-import { BadgedTabsModule } from '../pages/badged-tabs/badged-tabs.module';
 import { GoogleAnalyticsModule } from '../pages/google-analytics/google-analytics.module';
 
 
@@ -75,7 +68,6 @@ import { GoogleAnalyticsModule } from '../pages/google-analytics/google-analytic
 
 		ActionsheetModule,
 		ComponentsModule,
-		BadgedTabsModule,
 		GoogleAnalyticsModule,
 		NewsModule,
 		CalendarModule,
@@ -88,23 +80,17 @@ import { GoogleAnalyticsModule } from '../pages/google-analytics/google-analytic
 		HomeModule,
 		LocalNotificationsModule,
     lCalendarModule,
-		LocalStorageModule,
 		NetworkModule,
 		OAuthModule,
 		PhotoViewerModule,
 		// PositionModule,
-		ProductsModule,
 		PushModule,
 		ScreenOrientationModule,
 		ShakeModule,
-		SlideBoxModule,
 		SocialSharingModule,
 		SpinnerDialogModule,
 		ToastsModule,
 		VibrateModule,
-		VimeoModule,
-		WordpressModule,
-		RssFeedsModule,
 		// GoogleMapsModule,
 		GooglePlaceAutocompleteModule,
 		LaunchNavigatorModule,
