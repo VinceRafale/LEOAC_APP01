@@ -98,13 +98,14 @@
     "cordova-plugin-shake",
     "cordova-plugin-datepicker",
     "cordova-plugin-tts",
+    "phonegap-plugin-push",
     "uk.co.workingedge.phonegap.plugin.launchnavigator",
     "https://github.com/d0cz/CordovaYoutubeVideoPlayer",
     "cordova-plugin-themeablebrowser",
     "https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin.git",
     {
       "variables": {
-        "SENDER_ID": "211377410430"
+        "SENDER_ID": "1056718628758"
       },
       "locator": "phonegap-plugin-push",
       "id": "phonegap-plugin-push"

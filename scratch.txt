@@ -1,0 +1,3 @@
+curl -s -X POST -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzN2QyMDk3Ny0xOWRjLTQ3ODQtYWEwNi1hOGE0N2U5YTMxMDUifQ.nkarfQhC9guyukBSIyfnph1zWAiGs-jxV-UTGsiTF0E" --data '{"send_to_all": "true","profile": "leone01","notification": {"message": "Hello World!"}}' https://api.ionic.io/push/notifications
+
+curl -s -X GET -H "Accept: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzN2QyMDk3Ny0xOWRjLTQ3ODQtYWEwNi1hOGE0N2U5YTMxMDUifQ.nkarfQhC9guyukBSIyfnph1zWAiGs-jxV-UTGsiTF0E" https://api.ionic.io/push/notifications/20e30a75-ebb9-438d-8945-bb28872fb1f0/messages

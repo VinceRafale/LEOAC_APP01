@@ -52,7 +52,7 @@ export class Config {
 	public ionicCloudApiToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzN2QyMDk3Ny0xOWRjLTQ3ODQtYWEwNi1hOGE0N2U5YTMxMDUifQ.nkarfQhC9guyukBSIyfnph1zWAiGs-jxV-UTGsiTF0E';
 	static videoUrl = 'http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4';
 	static audioUrl = 'http://www.stephaniequinn.com/Music/Allegro%20from%20Duet%20in%20C%20Major.mp3';
-	static sender_id = '211377410430';
+	static sender_id = '1056718628758';
 	static app_id = '6adce26f';
 	// Paypal
 	static payPalEnvironmentSandbox = 'AUp3xO-yveZDMTjZ20GWJO6c_tv7bbHrj3sZC__XyaQ7N64iVd49HRyi5WBPD00ojcHK41_hvl76PbzH';

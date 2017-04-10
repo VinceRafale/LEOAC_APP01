@@ -78,7 +78,7 @@ export class MyApp {
 			// { title: 'Google maps', component: GoogleMapsPage, icon: 'map' },
 
 		];
-/*
+
 		this.nativePages = [
 			{ title: 'Action sheet', component: ActionsheetPage, icon: 'list-box' },
 			{ title: 'Calendar', component: CalendarPage, icon: 'calendar' },
@@ -113,7 +113,7 @@ export class MyApp {
 			{ title: 'Components', component: ComponentsListPage, icon: 'grid' },
 			// { title: 'Layouts', component: LayoutsListPage, icon: 'flower' }
 		];
-*/
+
 		this.rootPage = HomePage;
 	}
 

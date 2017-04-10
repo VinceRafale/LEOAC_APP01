@@ -12,6 +12,7 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-navigation href="twitter://*/*" />
+    <allow-navigation href="http://192.168.1.103:8100" />
     <platform name="android">
         <allow-intent href="market:*" />
         <preference name="loadUrlTimeoutValue" value="700000" />
@@ -42,9 +43,6 @@
     </plugin>
     <plugin name="cordova-plugin-x-toast" spec="~2.5.2" />
     <plugin name="cordova-plugin-actionsheet" spec="~2.3.1" />
-    <plugin name="phonegap-plugin-push" spec="1.8.1">
-        <variable name="SENDER_ID" value="211377410430" />
-    </plugin>
     <plugin name="cordova-plugin-device" spec="~1.1.3" />
     <plugin name="cordova-plugin-splashscreen" spec="~4.0.0" />
     <plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" spec="~3.2.1" />
@@ -59,4 +57,7 @@
     <plugin name="cordova-plugin-globalization" spec="~1.0.4" />
     <plugin name="cordova-plugin-inappbrowser" spec="~1.6.1" />
     <plugin name="cordova-plugin-google-analytics" spec="~1.7.5" />
+    <plugin name="phonegap-plugin-push" spec="~1.8.1">
+        <variable name="SENDER_ID" value="1056718628758" />
+    </plugin>
 </widget>

@@ -5,8 +5,12 @@ import { Push, PushToken } from '@ionic/cloud-angular';
 export class PushListenerService {
 
 	constructor(push: Push) {
+	  console.log("im in!");
 		push.register()
-			.then((t: PushToken) => push.saveToken(t));
+			.then((t: PushToken) => {
+        console.log("My Device token:",t);
+		    push.saveToken(t)
+      });
 
 		push.rx.notification()
 			.subscribe(this.onPush);
