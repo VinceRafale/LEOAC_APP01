@@ -10,7 +10,6 @@ import { NewsListPage } from '../pages/news/list/news.list.page';
 import { OAuthProvidersListPage } from '../pages/oauth/list/oauth-providers.list.page';
 import { OAuthProfilePage } from '../pages/oauth/profile/oauth-profile.page';
 // import { DateTimePage } from '../pages/date-time/date-time.page';
-import { NetworkPage } from '../pages/network/network.page';
 import { ToastsPage } from '../pages/toasts/toasts.page';
 import { VibratePage } from '../pages/vibrate/vibrate.page';
 import { SpinnerDialogPage } from '../pages/spinner-dialog/spinner-dialog.page';
@@ -18,13 +17,10 @@ import { SocialSharingPage } from '../pages/social-sharing/social-sharing.page';
 import { ActionsheetPage } from '../pages/actionsheet/actionsheet.page';
 import { CallNumberPage } from '../pages/call-number/call-number.page';
 import { ScreenOrientationPage } from '../pages/screen-orientation/screen-orientation.page';
-import { PhotoViewerPage } from '../pages/photo-viewer/photo-viewer.page';
 import { LocalNotificationsPage } from '../pages/local-notifications/local-notifications.page';
 import { DeviceMotionPage } from '../pages/device-motion/device-motion.page';
 import { CalendarPage } from '../pages/calendar/calendar.page';
 import { lCalendarListPage } from '../pages/leoCalendar/list/lcalendar.list.page';
-import { ClipboardPage } from '../pages/clipboard/clipboard.page';
-import { ContactsPage } from '../pages/contacts/contacts.page';
 import { DevicePage } from '../pages/device/device.page';
 import { ShakePage } from '../pages/shake/shake.page';
 import { PushPage } from '../pages/push/push.page';
@@ -33,7 +29,6 @@ import { LaunchNavigatorPage } from '../pages/launch-navigator/launch-navigator.
 // import { PositionPage } from '../pages/position/position.page';
 // import { GoogleMapsPage } from '../pages/google-maps/google-maps.page';
 // import { FabToolbarPage } from '../pages/fab-toolbar/fab-toolbar.page';
-import { ChartsListPage } from '../pages/charts-page/list/charts.list.page';
 import { I18nPage } from '../pages/i18n-capabilities/i18n.page';
 // import { LayoutsListPage } from '../pages/layouts/list/layouts.list.page';
 import { GooglePlaceAutocompletePage } from '../pages/google-place-autocomplete/google-place-autocomplete.page';
@@ -78,20 +73,16 @@ export class MyApp {
 			// { title: 'Google maps', component: GoogleMapsPage, icon: 'map' },
 
 		];
-
+/*
 		this.nativePages = [
 			{ title: 'Action sheet', component: ActionsheetPage, icon: 'list-box' },
 			{ title: 'Calendar', component: CalendarPage, icon: 'calendar' },
 			{ title: 'Call number', component: CallNumberPage, icon: 'call' },
-			{ title: 'Clipboard', component: ClipboardPage, icon: 'clipboard' },
-			{ title: 'Contacts', component: ContactsPage, icon: 'contacts' },
 			{ title: 'Device', component: DevicePage, icon: 'logo-android' },
 			{ title: 'Device motion', component: DeviceMotionPage, icon: 'contract' },
 			{ title: 'Google analytics', component: GoogleAnalyticsPage, icon: 'logo-google' },
 			{ title: 'Launch navigator', component: LaunchNavigatorPage, icon: 'pin' },
 			{ title: 'Local notifications', component: LocalNotificationsPage, icon: 'notifications' },
-			{ title: 'Network', component: NetworkPage, icon: 'wifi' },
-			{ title: 'Photo viewer', component: PhotoViewerPage, icon: 'images' },
 			// { title: 'Position', component: PositionPage, icon: 'compass' },
 			{ title: 'Push', component: PushPage, icon: 'notifications' },
 			{ title: 'Screen orientation', component: ScreenOrientationPage, icon: 'expand' },
@@ -103,7 +94,6 @@ export class MyApp {
 		];
 
 		this.thirdpartyPages = [
-			{ title: 'Charts', component: ChartsListPage, icon: 'stats' },
 			// { title: 'Fab toolbar', component: FabToolbarPage, icon: 'list-box' },
 			{ title: 'i18n', component: I18nPage, icon: 'globe' },
 			{ title: 'Google places', component: GooglePlaceAutocompletePage, icon: 'locate' }
@@ -113,7 +103,7 @@ export class MyApp {
 			{ title: 'Components', component: ComponentsListPage, icon: 'grid' },
 			// { title: 'Layouts', component: LayoutsListPage, icon: 'flower' }
 		];
-
+*/
 		this.rootPage = HomePage;
 	}
 

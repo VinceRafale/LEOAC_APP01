@@ -1,5 +1,6 @@
-# BareBone Ionic 2
+# LEONE ACADEMY Studio APP based on Barebone for IONIC 2
 This project is a generic Ionic application with ingredients that can be part of every modern Ionic application.
+This project is modified for the LEONE ACADEMY based in Liebefeld, Bern, CH.
 
 ## Dependecies, Run and Build
 

@@ -8,17 +8,13 @@ import { NewsModule } from '../pages/news/news.module';
 import { ComponentsModule } from '../pages/components/components.module';
 import { CalendarModule } from '../pages/calendar/calendar.module';
 import { CallNumberModule } from '../pages/call-number/call-number.module';
-import { ClipboardModule } from '../pages/clipboard/clipboard.module';
-import { ContactsModule } from '../pages/contacts/contacts.module';
 // import { DateTimeModule } from '../pages/date-time/date-time.module';
 import { DeviceModule } from '../pages/device/device.module';
 import { DeviceMotionModule } from '../pages/device-motion/device-motion.module';
 import { HomeModule } from '../pages/home/home.module';
 import { LocalNotificationsModule } from '../pages/local-notifications/local-notifications.module';
 import { lCalendarModule } from '../pages/leoCalendar/lcalendar.module';
-import { NetworkModule } from '../pages/network/network.module';
 import { OAuthModule } from '../pages/oauth/oauth.module';
-import { PhotoViewerModule } from '../pages/photo-viewer/photo-viewer.module';
 // import { PositionModule } from '../pages/position/position.module';
 import { ScreenOrientationModule } from '../pages/screen-orientation/screen-orientation.module';
 import { ShakeModule } from '../pages/shake/shake.module';
@@ -33,7 +29,6 @@ import { LaunchNavigatorModule } from '../pages/launch-navigator/launch-navigato
 import { AppRateModule } from '../pages/app-rate/app-rate.module';
 import { CustomComponentsModule } from '../components/custom-components.module';
 // import { FabToolbarModule } from '../pages/fab-toolbar/fab-toolbar.module';
-import { ChartsPageModule } from '../pages/charts-page/charts-page.module';
 import { Http } from '@angular/http';
 import { CloudModule } from '@ionic/cloud-angular';
 import { PushModule } from '../pages/push/push.module';
@@ -72,17 +67,13 @@ import { GoogleAnalyticsModule } from '../pages/google-analytics/google-analytic
 		NewsModule,
 		CalendarModule,
 		CallNumberModule,
-		ClipboardModule,
-		ContactsModule,
 		// DateTimeModule,
 		DeviceModule,
 		DeviceMotionModule,
 		HomeModule,
 		LocalNotificationsModule,
     lCalendarModule,
-		NetworkModule,
 		OAuthModule,
-		PhotoViewerModule,
 		// PositionModule,
 		PushModule,
 		ScreenOrientationModule,
@@ -96,7 +87,6 @@ import { GoogleAnalyticsModule } from '../pages/google-analytics/google-analytic
 		LaunchNavigatorModule,
 		AppRateModule,
 		// FabToolbarModule,
-		ChartsPageModule,
 		I18nModule,
 		// LayoutsModule,
 	],
