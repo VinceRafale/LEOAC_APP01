@@ -30,12 +30,13 @@ import { AppRateModule } from '../pages/app-rate/app-rate.module';
 import { CustomComponentsModule } from '../components/custom-components.module';
 // import { FabToolbarModule } from '../pages/fab-toolbar/fab-toolbar.module';
 import { Http } from '@angular/http';
-import { CloudModule } from '@ionic/cloud-angular';
+import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
 import { PushModule } from '../pages/push/push.module';
 import { I18nModule } from '../pages/i18n-capabilities/i18n-capabilities.module';
 import { TranslateModule } from 'ng2-translate/ng2-translate';
 import { TranslateLoader, TranslateStaticLoader } from 'ng2-translate/src/translate.service';
 // import { LayoutsModule } from '../pages/layouts/layouts.module';
+
 
 export function createTranslateLoader(http: Http) {
 	return new TranslateStaticLoader(http, 'assets/i18n', '.json');

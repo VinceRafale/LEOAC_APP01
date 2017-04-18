@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { Deploy } from '@ionic/cloud-angular';
 import { Platform, MenuController, App, Nav } from 'ionic-angular';
 import { StatusBar } from 'ionic-native';
-
+import { Push, PushToken } from '@ionic/cloud-angular';
 
 import { OAuthService } from '../pages/oauth/oauth.service';
 import { HomePage } from '../pages/home/home.page';
@@ -54,14 +54,13 @@ export class MyApp {
 
 	@ViewChild(Nav) nav: Nav;
 
-	constructor(platform: Platform, menu: MenuController, oauthService: OAuthService, app: App, public deploy: Deploy) {
+	constructor(platform: Platform, menu: MenuController, oauthService: OAuthService, app: App, public deploy: Deploy, public push: Push) {
 
 		this.menu = menu;
 		this.oauthService = oauthService;
 		// set up our app
 		this.app = app;
 		this.platform = platform;
-		this.initializeApp();
 
 		// set our app's pages
 		this.homePage = { title: 'Home', component: HomePage, icon: 'home' };
@@ -105,12 +104,23 @@ export class MyApp {
 		];
 */
 		this.rootPage = HomePage;
-	}
 
-	initializeApp() {
-		this.platform.ready().then(() => {
-			StatusBar.styleDefault();
-		});
+    platform.ready().then(() => {
+      // Okay, so the platform is ready and our plugins are available.
+      // Here you can do any higher level native things you might need.
+      StatusBar.styleDefault();
+    });
+
+    this.push.register().then((t: PushToken) => {
+      return this.push.saveToken(t);
+    }).then((t: PushToken) => {
+      console.log('Token saved:', t.token);
+    });
+
+    this.push.rx.notification()
+      .subscribe((msg) => {
+        alert(msg.title + ': ' + msg.text);
+      });
 	}
 
 	openPage(page) {
